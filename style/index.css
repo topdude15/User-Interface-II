@@ -54,14 +54,17 @@ header {
 }
 header h1 {
     font-size: 8rem;
+    font-family: 'Mukta', sans-serif;
+    padding: 5%;
 }
 header nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    padding-bottom: 2%;
 }
 header nav a {
-    padding: 2%;
+    padding: 1%;
     color: #F1FEC6;
     font-family: 'Kiwi Maru';
     width: 15%;
