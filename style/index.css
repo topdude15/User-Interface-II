@@ -98,6 +98,9 @@ header nav a {
 .left h2 {
     font-size: 6rem;
 }
+.left p {
+    font-size: 1.2vmax;
+}
 .projButton {
     text-align: center;
     text-decoration: none;
@@ -108,6 +111,8 @@ header nav a {
     width: 40%;
     color: white;
     padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
 }
 .gallery {
     display: flex;
@@ -133,6 +138,20 @@ footer {
 }
 footer h3 {
     font-size: 2vmax;
+    font-family: 'Mukta', sans-serif;
+    padding: 2%;
     align-items: center;
-    flex-shrink: 0;
+}
+.contactButton {
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 3vw;
+    background-color: #247BA0;
+    height: 20%;
+    width: 40%;
+    color: white;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 5px;
 }
