@@ -47,6 +47,7 @@ html {
 }
 body {
     font-size: 1.6rem;
+    width: 100%;
 }
 h2, p, a {
     color: #50514F;
@@ -106,6 +107,21 @@ header nav a {
     width: 40%;
 }
 
-* {
+/* * {
     border: 1px solid black;
+} */
+.gallery {
+    display: flex;
+    width: 100%;
+}
+.images {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img {
+    padding: 1%;
+    width: 20%;
+    justify-content: space-between;
 }
