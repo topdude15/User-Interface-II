@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -48,12 +48,16 @@ html {
 body {
     font-size: 1.6rem;
 }
-
+h2, p, a {
+    color: #50514F;
+    font-family: 'Kiwi Maru', sans-serif;
+}
 header {
     background-color: #B6D6CC;
 }
 header h1 {
     font-size: 8rem;
+    font-size: 5vmax;
     font-family: 'Mukta', sans-serif;
     padding: 5%;
 }
@@ -65,13 +69,43 @@ header nav {
 }
 header nav a {
     padding: 1%;
-    color: #F1FEC6;
-    font-family: 'Kiwi Maru';
+    color: #50514F;
     width: 15%;
     font-size: 4rem;
+    font-size: 2.5vmax;
     line-height: 2;
     text-decoration: none;
     text-align: center;
-    background-color: #74A4BC;
-    border-radius: 25px;
+    background-color: #FFFCFF;
+    border-radius: 2px;
+}
+.mainInfo {
+    display: flex;
+    margin-top: 1%;
+}
+.right img {
+    height: 80%;
+    width: 80%;
+    margin: 2%;
+    border-radius: 10px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.left h2 {
+    font-size: 6rem;
+}
+.projButton {
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 3vw;
+    background-color: #247BA0;
+    height: 25%;
+    width: 40%;
+}
+
+* {
+    border: 1px solid black;
 }
